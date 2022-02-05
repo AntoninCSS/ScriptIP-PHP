@@ -8,6 +8,8 @@ Lire la liscence dans le FIchier text : " COPYRIGHT.txt " présent dans ce dossi
 
 -----Démarage-----
 
+!!!!!! Pour pouvoir recevoir le mail veuiller préciser votre mail dans le script Ligne 192 !!!!!! 
+
 Pour lancer le script il suffit de lui metre des droits d'execution avec "CHMOD"
 
   exemple : " chmod 770 ScriptvIP_V3.6 "
