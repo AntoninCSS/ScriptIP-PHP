@@ -189,7 +189,7 @@ function HTML($arg2,$htmladd) // création du mail en format HTML
  global $date1;
 
  //Destinataire
- $to = "antonin.cosse@gmail.com";
+ $to = "exemple@exemple.com";
 
  //sujet du mail
  $Subject = utf8_decode("Surveillance réseau SIO2-SLAM : Erreur(s) détectée(s)");
