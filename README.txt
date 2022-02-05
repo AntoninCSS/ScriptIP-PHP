@@ -1,25 +1,33 @@
-----ScriptIP_V2.7-----
+----ScriptIP_V3.6-----
 
-Ce Script a pour But de Ping des IP contenue dans le première argument et l'envoyer par Mail
+Ce Script a pour But de Ping des IP contenue dans le première argument ou présent dans une base de donnée et l'envoyer par Mail
+
 ----License----
+
 Lire la liscence dans le FIchier text : " COPYRIGHT.txt " présent dans ce dossier
+
 -----Démarage-----
 
 Pour lancer le script il suffit de lui metre des droits d'execution avec "CHMOD"
 
-  exemple : " chmod 770 ScriptvIP "
+  exemple : " chmod 770 ScriptvIP_V3.6 "
+
+Mais aussi de préciser "php" avec l'appel du script
+ 
+  exemple : " php monscript "
 
 -----Argumentation------
 
 Puis Argumentée le Script avec :
   
-  -Premier argument : Liste des IPS a tester
+  -Premier argument : Liste des IPS a tester ou "-db" pour préciser que les IP vienne de la base de donnée
   -Deuxième Argument : Le fichier Html a générer avec l'extension ".html"
-  -Troisième Argument : L'adresse mail pour envoyer le rendu par mail"
 
 -----Exemple Syntaxe-----
 
-Kali : ./scriptvIP  Adresse.txt Ma_page.html exemple@exemple.com
+Kali : ./scriptvIP  Adresse.txt Ma_page.html
+ou
+Kali : ./scriptvIP  -db Ma_page.html
 
 -----Cofiguration Du Mail------
  
