@@ -102,4 +102,4 @@ Puis à la suite de la configuration écrire: bash /"Chemin du script"/ /"chemin
 
 ------Auteur-----
 
-Auteur : Antonin Cosse
+Auteur : AntoninC
